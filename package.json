@@ -1,13 +1,14 @@
 {
-  "name": "calculator",
+  "name": "calculator-command-line-piaic",
   "version": "1.0.0",
   "description": "'SIMPLE CALCULATOR",
   "main": "index.js",
   "type": "module",
+  "module": "index.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Abdul Qudoos",
   "license": "MIT",
   "dependencies": {
     "git": "^0.1.5",
@@ -15,5 +16,16 @@
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulquds/PIAIC-Projects.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "bugs": {
+    "url": "https://github.com/abdulquds/PIAIC-Projects/issues"
+  },
+  "homepage": "https://github.com/abdulquds/PIAIC-Projects#readme"
 }
